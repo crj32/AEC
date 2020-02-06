@@ -6,6 +6,10 @@ AEC <- function(mydata,maxiter=80,clusteralg='spectral',mode='random',
                 specclusteralg='km',showheatmap=FALSE,
                 showheatmap2=FALSE,KNN_p=10,forcek=FALSE,myk=2){
   
+  # algorithm based on work by Mok et al. (2012)
+  # Mok, Pik-Yin, et al. "A robust adaptive clustering analysis method for 
+  # automatic identification of clusters." Pattern Recognition 45.8 (2012): 3017-3033.
+  
   # maxiter=80
   # clusteralg='spectral'
   # mode='random'
